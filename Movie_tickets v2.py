@@ -3,7 +3,7 @@ Get category and number of tickets
 Created by Isaac Shin
 '''
 
-#component 1 - welcome screen and set up variables
+# Component 1 - welcome screen and set up variables
 
 
 def sell_ticket():
@@ -31,7 +31,7 @@ def sell_ticket():
 
         print(f"\nYou have ordered {num_tickets} {ticket} tickets(s)!")
         ticket_wanted = input("Do you want to sell another ticket (Y/N): "
-                            "").upper()
+                              "").upper()
 
 
 # Main routine
